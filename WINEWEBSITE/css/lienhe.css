@@ -1,0 +1,1145 @@
+*{  margin: 0 auto;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.wrapper_full{width: 1920px;background-color: white;}
+.content{width:1140px ;}
+#header{height: 195px;background-color: black;}
+#content{height:1140px ;}
+#img-wrapper{height:600px ;}
+#fcontent{height:330px ;}
+#foodter{height:200px ;}
+#wrapper_full_hr{height:20px;}
+
+
+/* dịnh dạng font chử */
+@font-face{
+    font-family: "utmcaviar";  
+    src: url("utm_caviar/UTMCaviar.ttf");      
+}
+
+@font-face{  
+    font-family: "UTMAquarelle";
+    src: url("utm_caviar/UTMAquarelle.ttf");
+}
+@font-face{  
+    font-family: "LobsterRegular";
+    src: url("utm_caviar/LobsterRegular.ttf");
+}
+/* dịnh dạng font chử */
+
+
+
+/* Tạo slider herder */
+a:focus{
+color:#c89b4e;
+
+}
+
+#trongsuot{
+    position: relative;
+    background-color: white;
+    color: white;
+    top:0px;
+    line-height: 35px;
+    height: 35px;
+    z-index: 1;
+    width: 100%;
+
+}
+#trongsuot a{    
+    color: #848484;
+    font-size: 12px;
+   
+}
+
+.content{width:1170px ;}
+
+
+#topnav #timkiem{
+  position: absolute;
+  right: 385px;
+    float:right;
+    z-index: 2;
+    top:5px;
+ }
+#topnav #input-timkiem{
+  position: relative;
+  top:5px;
+    float: right;
+    font-style:italic;
+    padding-left: 14px;
+    border:0px;
+    border-left: 2px solid white;
+    background-color: white;
+    opacity: 0.7;
+    height: 20px;
+    line-height: 20px;
+    width: 300px;
+    padding-left: 20px;
+    z-index: 1;
+ }
+
+
+
+ #nav-Menu a:hover,#topnav a:hover,.link-a a:hover{
+    color:#c89b4e;
+   
+  }
+  #topnav a:hover{  text-decoration: underline;
+}
+/* tạo slider heder */
+
+
+
+
+
+
+
+
+ #nav-Menu{
+height: 120px;
+line-height: 120px
+ }
+
+#nav-Menu img{
+    float: left;
+}
+#nav-Menu a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  #nav-Menu a:hover,#topnav a:hover,.link-a a:hover{
+    color:#e6ae48;
+   
+  }
+  #topnav a:hover{  text-decoration: underline;
+}
+
+
+
+
+.gioithieu{
+  
+
+  
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+  
+#topForm{
+    height: 155px;
+    margin-top: 20px;
+}
+#dangkytop{
+    float: left;
+}
+.dangnhap{
+    float: right;
+    background-color: black;
+    color: white;
+    width: 117px;
+    height: 32px;
+    border: 0px;
+       
+}
+.dangnhap:hover{
+    background-color: #e6af4a;
+    color: white;
+    border: none;
+}
+
+
+
+#follow a{
+color: #888888;
+}
+#follow a:hover{
+    opacity: 0.5;
+    }
+
+#form-rong{
+    width: 100%;
+    margin-bottom: 40px;
+}
+#form-rong .lab-ttdn{
+    width: 120px;
+    color: #828282;
+}
+
+div#form-rong  .input-ttdn{
+    width: 630px;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+}
+
+input#checkdangky{
+    width: 10px;
+}
+
+
+
+   
+
+
+#topForm  a{
+color: #a7a7a7;
+}
+
+#form-rong span{
+  color:red;
+}
+
+
+
+
+#YourMessage{
+    width: 630px;
+    height: 160px;
+    resize: none;
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+}
+
+.yourmsg{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card-body input,.xemthem{
+    background-color: black;
+    color: white;
+ 
+    height: 32px;
+    border: 0px;
+    
+  
+   
+}
+.card-body input:hover,.xemthem:hover{
+    background-color: #e6af4a;
+    color: white;
+    border: none;
+}
+
+#show-sanpham{
+    position: relative;
+    height: 1110px;
+}
+
+#sale-sanpham-img,#sale-sanpham{
+    position: absolute;
+}
+#sale-sanpham-img{
+    width: 1140px; 
+    margin:15px;
+    z-index: 0;
+}
+
+/* slider san pham */
+
+.parent-box{
+          
+  display: flex;
+}
+.box{
+
+
+margin: 10px;
+}
+.owl-nav{}
+.owl-prev i{
+position: absolute;
+top:150px;
+left: 20px;
+}
+.owl-next i{
+position: absolute;
+top:150px;
+right: 20px;
+}
+
+.owl-prev i:hover{
+  color: #c89b4e;
+  
+}
+
+.owl-next i:hover{
+  color: #c89b4e;
+  
+}
+/* slider san pham */
+
+
+
+
+/*  */
+
+
+#hovericon{
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  height: 220px;
+  width: 360px;
+  -webkit-transition: all 300ms ease-out;
+  -moz-transition: all 300ms ease-out;
+  -o-transition: all 300ms ease-out;
+  -ms-transition: all 300ms ease-out;
+  transition: all 300ms ease-out;
+ 
+  }
+
+.hinhtron {
+  position: absolute;
+  background: white;
+  top: 100px;
+  right: 168px;
+  width: 50px;
+  height: 50px;
+  -moz-border-radius: 50px;
+-webkit-border-radius: 50px;
+border-radius: 50px;
+opacity: 0;
+-webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+transition: opacity 2s ;
+}
+
+.hinhtron i{
+  font-size: 24px;
+   position: absolute;
+   top: 14px;
+   left: 15px;
+   opacity: 0;
+   -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+ transition: opacity 2s ;
+ 
+ }
+ 
+ .tamgia2 {
+  position:absolute;
+  top:0px;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 220px solid white;
+  border-left: 360px solid transparent;
+  opacity: 0;
+  -webkit-transition: opacity 2s; /* For Safari 3.1 to 6.0 */
+  transition: opacity 2s ;
+  }
+
+
+#hovericon:hover .hinhtron{
+  opacity: 1;
+}
+#hovericon:hover .hinhtron i{
+  opacity: 1;
+}
+#hovericon:hover .tamgia2{
+  opacity: 0.4;
+}
+
+
+.viewhovericon{
+  margin-bottom: 20px;
+}
+
+
+
+/*  */
+
+
+
+
+#sale-sanpham{
+    width:945px; 
+    height: 660px;
+    background-color: white;
+    z-index: 1;
+    top:345px;
+    left: 110px;
+    padding: 97px;
+   
+}
+
+#col-1-sanpham{
+    float: left;
+    width: 488px;
+}
+#img-sale{
+    float: left;
+    left: 0px;
+    top: 0px;
+    height: 570px; 
+
+}
+
+.ruouto{    
+    width: 200px;
+    
+}
+#img-ruouto-sanpham{
+    width: 288px;
+    float: left;
+    left: 0px;
+    top: 0px;
+    height: 570px;
+   
+} 
+
+.product-group{
+    margin-top: 50px ;
+}
+
+#col-2-sanpham{
+    float: left;
+      width: 262px;
+      height: 570px;
+
+}
+
+#col-2-sanpham table{
+    width: 262px;
+    height: 176px;
+    text-align: center;
+    border: #e6af4a solid 1px;  
+
+   
+}
+
+#col-2-sanpham  p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #e6af4a;
+    font-size: 14px;
+}
+
+
+#col-2-sanpham #gioithieusanpham{
+    color: #818181;
+}
+#col-2-sanpham .giatien,#col-2-sanpham table tr td{
+    color: #e6af4a;
+    font-family: "utmcaviar";
+    font-size: 34px;
+} 
+#col-2-sanpham table tr td{
+    width: 50%;
+}
+
+#sanphammoi,#sanphambanchay,.canle{
+    text-align: center;
+}
+
+.sanphammoi-bc{
+    float: left;
+   
+    
+}
+.sanphammoi-ruou{
+    float: left;
+}
+/* Card boostrap */
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+   
+    border-radius: 0.25rem;
+  }
+  
+  .card > hr {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  .card > .list-group:first-child .list-group-item:first-child {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  
+  .card > .list-group:last-child .list-group-item:last-child {
+    border-bottom-right-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+  }
+  
+  .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+  }
+  
+  .card-title {
+    margin-bottom: 0.75rem;
+  }
+  
+  .card-subtitle {
+    margin-top: -0.375rem;
+    margin-bottom: 0;
+  }
+  
+  .card-text:last-child {
+    margin-bottom: 0;
+  }
+  
+  .card-link:hover {
+    text-decoration: none;
+  }
+  
+  .card-link + .card-link {
+    margin-left: 1.25rem;
+  }
+  
+  .card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  .card-header:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+  }
+  
+  .card-header + .list-group .list-group-item:first-child {
+    border-top: 0;
+  }
+  
+  .card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  .card-footer:last-child {
+    border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+  }
+  
+  .card-header-tabs {
+    margin-right: -0.625rem;
+    margin-bottom: -0.75rem;
+    margin-left: -0.625rem;
+    border-bottom: 0;
+  }
+  
+  .card-header-pills {
+    margin-right: -0.625rem;
+    margin-left: -0.625rem;
+  }
+  
+  .card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+  }
+  
+  .card-img {
+    width: 100%;
+    border-radius: calc(0.25rem - 1px);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+  }
+  
+  .card-img-bottom {
+    width: 100%;
+    border-bottom-right-radius: calc(0.25rem - 1px);
+    border-bottom-left-radius: calc(0.25rem - 1px);
+  }
+  
+  .card-deck {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  .card-deck .card {
+    margin-bottom: 15px;
+  }
+/* Card boostrap */
+
+/* Binh chon */
+#icon{content:"\e018";}
+
+
+#ruounho:hover .binhchon{
+  opacity: 1;
+}
+#ruoumoi:hover .binhchon{
+  opacity: 1;
+}
+
+#ruouhot:hover .binhchon{
+opacity: 1;
+}
+#ruoudalat:hover .binhchon{
+opacity: 1;
+}
+/* doi mau H5 */
+#ruounho:hover h5{
+  color: #e6af4a;
+}
+#ruoumoi:hover h5{
+  color: #e6af4a;
+}
+
+#ruouhot:hover h5{
+  color: #e6af4a;
+}
+#ruoudalat:hover h5{
+  color: #e6af4a;
+}
+/* doi mau H5 */
+/*  */
+#ruounho2:hover h5{
+  color: #e6af4a;
+}
+#ruoumoi2:hover h5{
+  color: #e6af4a;
+}
+
+#ruouhot2:hover h5{
+  color: #e6af4a;
+}
+#ruoudalat2:hover h5{
+  color: #e6af4a;
+}
+/*  */
+/* san pham ban chay */
+#ruounho2:hover .binhchon{
+  opacity: 1;
+}
+#ruoumoi2:hover .binhchon{
+  opacity: 1;
+}
+
+#ruouhot2:hover .binhchon{
+opacity: 1;
+}
+#ruoudalat2:hover .binhchon{
+opacity: 1;
+}
+/* kt san pham ban chay */
+
+
+.binhchon{
+    width: 100%;
+    opacity: 0;    
+    bottom: 50px;
+}
+
+.binhchon .row .col-md-5{
+  line-height: 30px;
+  height: 30px;
+  width: 40%;
+}
+.binhchon .row .col-md-5{
+  width: 40%;
+  height: 30px;
+  line-height: 30px;
+}
+.binhchon .row .col-md-2{
+  height: 30px;
+  width: 20%;
+  line-height: 30px;
+}
+
+#kisslove{background-color: black;color: white}
+#sosanhicon{background-color: black;color: white; border-right:1px solid #262626;border-left:1px solid #262626 }
+#compress{background-color: black;color: white}
+
+
+
+.binhchon a{
+  color: #818181;
+  text-decoration: none;
+}
+.binhchon a:hover{
+  color: #818181;
+  text-decoration: none;
+}
+
+.binhchon #kisslove:hover{
+  color: #818181;
+ 
+  background-color: #e6ae48;
+}
+.binhchon #sosanhicon:hover{
+  color: #818181;
+ 
+  background-color: #e6ae48;
+}
+.binhchon #compress:hover{
+  color: #818181;
+ 
+  background-color: #e6ae48;
+}
+
+
+/* Binh chon */
+
+
+
+
+
+.giatien{    
+    color: #e6af4a;
+    font-family: "utmcaviar";
+    font-size: 20px;
+}
+.giacu{
+    color: #bfbfbf;
+    font-size: 15px;
+    
+}
+#img-wrapper .hinhruou{
+  position: relative;
+ 
+    width: 490px;
+    height: 300px;
+   
+    z-index: 1;
+ 
+}
+/* Transform */
+#transform{
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    width: 480px;
+    height: 300px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+}
+
+#transform:hover{   
+    opacity: 1;   
+    }
+
+#transition-ruou{
+  width:490px ;
+  height:300px;
+  position: relative;
+  z-index: 2;
+ 
+  }
+  
+  #transition-ruou:hover{
+   
+    border: #e6ae48 solid 5px;
+    
+  }
+  
+  #transition-ruou .gachtop {
+    width: 0px;
+    height: 1.5px;
+    top:80px;
+    left:50px;
+    position: absolute;
+    background: white;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+  }
+  
+  #transition-ruou:hover  .gachtop{
+    width: 380px;
+     
+  }
+  
+  #transition-ruou .gachbuton {
+    width: 0px;
+    height: 1.5px;
+    top:220px;
+    left:50px;
+    position: absolute;
+    background: white;
+    -webkit-transition: width 1s; /* For Safari 3.1 to 6.0 */
+    transition: width 1s;
+  }
+  
+  #transition-ruou:hover  .gachbuton{
+    width: 380px;
+    
+  }
+  
+  #transition-ruou .gachleft {
+    width: 1.5px;
+    height: 0px;
+    top:60px;
+    left:80px;
+    position: absolute;
+    background: white;
+    -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
+    transition: height 1s;
+  }
+  
+  #transition-ruou:hover  .gachleft{
+   
+    height: 180px;
+    
+  }
+  
+  #transition-ruou .gachright {
+    width: 1.5px;
+    height: 0px;
+    top:60px;
+    left:410px;
+    position: absolute;
+    background: white;
+    -webkit-transition: height 1s; /* For Safari 3.1 to 6.0 */
+    transition: height 1s;
+  }
+  
+  #transition-ruou:hover  .gachright{
+   
+    height: 180px;
+    
+  }
+  #transition-ruou p{
+    position: absolute;
+    font-size:15px;
+    color: white;
+    top: 52px;
+    left: 231px;
+    opacity: 0;
+    -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 0.5s ;
+   }
+   #transition-ruou:hover  p{
+    opacity: 1;
+    
+  }
+
+
+
+  #transition-ruou h1{
+    position: absolute;
+    font-size:100px;
+    color: white;
+    top: 80px;
+    left:110px;
+    opacity: 0;
+    -webkit-transition: opacity 1s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 0.5s ;
+   }
+   #transition-ruou:hover  h1{
+    opacity: 1;
+    
+  }
+/* transtrorm */
+
+
+
+
+.canle{
+    color: #979797;
+}
+
+.canle-right{
+    text-align: right;
+}
+.canle-left{
+    text-align: left;
+}
+
+.canle-right a:hover,.hover-a a:hover{
+   
+    opacity: 0.5;
+}
+.link-a a,.canle-left,.color-p{
+color: #979797;
+
+}
+#email{
+    color: #ebc581;
+   
+}
+
+#tinhtuc{
+    font-size: 14px;
+}
+.foodter-h{
+    font-size: 18px;
+    
+}
+#input-email{
+    float: left;
+    width: 243px;
+    height: 30px;
+    background-color: white;
+    border:1px #787878 solid;
+    font-style:italic;
+    padding-left: 14px;
+    color: #787878;
+}
+
+#guiemail {
+    border:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 76px;
+    background-color: #333;
+    color: white;
+    font-weight: 900;
+    padding-right: 20px;
+  
+  
+    
+    
+  -webkit-clip-path: polygon(83% 0, 100% 49%, 83% 100%, 0% 100%, 0 51%, 0% 0%);
+  clip-path: polygon(83% 0, 100% 49%, 83% 100%, 0% 100%, 0 51%, 0% 0%);
+  }
+   #guiemail:hover{
+        background-color: #ebc581;
+    }
+   
+    /**
+
+ */
+/*
+ *  Owl Carousel - Core
+ */
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1; }
+  .owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden;
+    /* fix firefox animation glitch */ }
+  .owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; }
+  .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    /* fix for flashing background */
+    -webkit-transform: translate3d(0px, 0px, 0px); }
+  .owl-carousel .owl-wrapper,
+  .owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0); }
+  .owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none; }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 100%; }
+  .owl-carousel .owl-nav.disabled,
+  .owl-carousel .owl-dots.disabled {
+     }
+  .owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next,
+  .owl-carousel .owl-dot {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel button.owl-dot {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 ;
+    font: inherit; }
+  .owl-carousel.owl-loaded {
+    display: block; }
+  .owl-carousel.owl-loading {
+    opacity: 0;
+    display: block; }
+  .owl-carousel.owl-hidden {
+    opacity: 0; }
+  .owl-carousel.owl-refresh .owl-item {
+    visibility: hidden; }
+  .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .owl-carousel.owl-grab {
+    cursor: move;
+    cursor: grab; }
+  .owl-carousel.owl-rtl {
+    direction: rtl; }
+  .owl-carousel.owl-rtl .owl-item {
+    float: right; }
+
+/* No Js */
+.no-js .owl-carousel {
+  display: block; }
+
+/*
+ *  Owl Carousel - Animate Plugin
+ */
+.owl-carousel .animated {
+  animation-duration: 1000ms;
+  animation-fill-mode: both; }
+
+.owl-carousel .owl-animated-in {
+  z-index: 0; }
+
+.owl-carousel .owl-animated-out {
+  z-index: 1; }
+
+.owl-carousel .fadeOut {
+  animation-name: fadeOut; }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+/*
+ * 	Owl Carousel - Auto Height Plugin
+ */
+.owl-height {
+  transition: height 500ms ease-in-out; }
+
+/*
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+.owl-carousel .owl-item {
+  /**
+			This is introduced due to a bug in IE11 where lazy loading combined with autoheight plugin causes a wrong
+			calculation of the height of the owl-item that breaks page layouts
+		 */ }
+  .owl-carousel .owl-item .owl-lazy {
+    opacity: 0;
+    transition: opacity 400ms ease; }
+  .owl-carousel .owl-item .owl-lazy[src^=""], .owl-carousel .owl-item .owl-lazy:not([src]) {
+    max-height: 0; }
+  .owl-carousel .owl-item img.owl-lazy {
+    transform-style: preserve-3d; }
+
+/*
+ * 	Owl Carousel - Video Plugin
+ */
+.owl-carousel .owl-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000; }
+
+.owl-carousel .owl-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url("owl.video.play.png") no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  transition: transform 100ms ease; }
+
+.owl-carousel .owl-video-play-icon:hover {
+  -ms-transform: scale(1.3, 1.3);
+      transform: scale(1.3, 1.3); }
+
+.owl-carousel .owl-video-playing .owl-video-tn,
+.owl-carousel .owl-video-playing .owl-video-play-icon {
+  display: none; }
+
+.owl-carousel .owl-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 400ms ease; }
+
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%; }
+
+/* slider nguoi dung */
+.Slider-badge,.Slider-tag{background-color:#b4b4b4;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.Slider-badge{border-radius:50%}
+.Slider-tooltip,.Slider-display-container{position:relative}.Slider-tooltip .Slider-text{display:none}.Slider-tooltip:hover .Slider-text{display:inline-block}
+.Slider-display-container:hover .Slider-display-hover{display:block}.Slider-display-container:hover span.Slider-display-hover{display:inline-block}.Slider-display-hover{display:none}
+.Slider-white,.Slider-hover-white:hover{color:#000;background-color:#c89b4e}
+/* slider nguoi dung */
+
+
+/* link a Readmore */
+.Readmore{
+  color:#a7a7a7;
+}
+
+.Readmore:hover{
+  color:#a7a7a7;
+}
+/*  */
